@@ -35,6 +35,7 @@ void print(int x) {
 }
 
 int main() {
+    cout << "Kac tane sayi girisi yapmak istiyorsunuz?: ";
     cin >> counter;
     if(counter >= 100) {cout << "100'den fazla giris yapilamaz!";}
     else {islem();}
